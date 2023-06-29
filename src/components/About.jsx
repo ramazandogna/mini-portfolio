@@ -1,5 +1,6 @@
 import Ben from '../assets/images/ben.jpeg';
 import BioWrapper from '../components/sections/BioWrapper';
+import { BsFillSendFill } from 'react-icons/bs';
 import Pokepoke from '../assets/images/pokepoke-app.png';
 import React from 'react';
 import SocialWrapper from './sections/SocialWrapper';
@@ -90,9 +91,21 @@ function About() {
                   />
                   <p className={styles.projectP}>Umutvadi</p>
                   <p className={styles.projectP2}>
-                     My website (>1.5M Single hit )
+                     My website ( - 1.5M Single hit )
                   </p>
                </a>
+            </div>
+            <div>
+               <h3 className={styles.wrapperTitle}>Mail</h3>
+               <p>
+                  Join me on a behind-the-scenes coding journey. Weekly updates
+                  on projects, tutorials, and videos
+               </p>
+               <div className={styles.mailContainer}>
+                  <button className={styles.mailButton}>
+                     <BsFillSendFill /> Click Here and Mail Me
+                  </button>
+               </div>
             </div>
          </div>
       </div>

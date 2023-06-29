@@ -59,20 +59,37 @@
    @apply font-semibold;
 }
 
+.projects {
+   @apply gap-16 flex flex-col;
+}
+
 .photoContainer {
-   @apply flex  w-full justify-center;
+   @apply flex  w-full justify-center gap-6;
 }
 .projectImageContainer {
-   @apply text-current flex flex-col;
+   @apply flex flex-col;
 }
 
 .projectImage {
-   @apply rounded-2xl mx-2;
+   @apply rounded-2xl pb-2;
 }
 
 .projectP {
-   @apply text-center;
+   @apply text-center text-slate-700 uppercase;
 }
 .projectP2 {
-   @apply text-center text-sm;
+   @apply text-center text-slate-700 text-sm;
+}
+
+.mailContainer {
+   @apply flex justify-center;
+}
+
+.mailButton {
+   @apply mt-4 flex justify-center gap-2 items-center text-white py-2 px-4 rounded-md;
+   background-color: #319795;
+}
+
+.mailButton:hover {
+   background-color: #247c7a;
 }

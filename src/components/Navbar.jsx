@@ -31,13 +31,13 @@ function Navbar() {
                   </Link>
                   <ul className={styles.list}>
                      <Link
-                        to="/"
+                        to="/projects"
                         className={styles.listLink}
                      >
                         <li className={styles.listItems}>Projects</li>
                      </Link>
                      <Link
-                        to="/"
+                        to="/resume"
                         className={styles.listLink}
                      >
                         <li className={styles.listItems}>Resume</li>
@@ -74,13 +74,13 @@ function Navbar() {
                   {isMenuOpen && (
                      <div className={styles.menuItems}>
                         <Link
-                           to="/"
+                           to="/projects"
                            className={styles.menuItem}
                         >
                            <p className={styles.menuItemText}>Projects</p>
                         </Link>
                         <Link
-                           to="/"
+                           to="/resume"
                            className={styles.menuItem}
                         >
                            <p className={styles.menuItemText}>Resume</p>

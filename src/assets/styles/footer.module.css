@@ -1,0 +1,19 @@
+.footerWrapper {
+   @apply flex justify-center items-center gap-2 py-10 px-8;
+}
+
+.created {
+   @apply text-slate-500 text-sm font-extralight border-b-2 border-slate-500 border-opacity-0;
+}
+
+.created:hover {
+   @apply transition-all border-b-2 border-opacity-100;
+}
+
+.github {
+   @apply text-slate-500 text-[25px] transition-all hover:duration-500 hover:scale-125;
+}
+
+.linkedin {
+   @apply text-[25px] transition-all hover:duration-500 hover:scale-125;
+}

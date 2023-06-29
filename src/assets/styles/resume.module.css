@@ -1,0 +1,54 @@
+.resumeWrapper {
+   @apply w-[604px] flex justify-center flex-col;
+}
+
+.skillContainer {
+   @apply flex flex-grow gap-4;
+}
+
+.year {
+   @apply font-semibold;
+}
+
+.certificateList {
+   @apply flex flex-col;
+}
+
+.listContainer {
+   @apply text-current w-full;
+}
+
+.certificateListItem {
+   @apply text-current inline-block py-3 pl-1 pr-4 rounded-lg;
+   color: #2c7a7b;
+}
+
+.certificateListItem:hover {
+   background-color: #e6fffa;
+}
+
+.tableContainer {
+   @apply relative overflow-x-auto sm:rounded-lg;
+   background-color: #ffffff40;
+   box-shadow: 2px 3px 4px 5px rgba(12, 12, 12, 0.1);
+}
+
+.table {
+   @apply w-full  text-left text-gray-500 dark:text-gray-400;
+}
+
+.tHead {
+   @apply text-sm text-gray-700 uppercase  dark:bg-gray-700 dark:text-gray-400;
+}
+
+.th {
+   @apply px-6 py-3;
+}
+
+.tableBody {
+   @apply border-b dark:bg-gray-800 dark:border-gray-700;
+}
+
+.td {
+   @apply px-6 py-4;
+}

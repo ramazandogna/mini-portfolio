@@ -1,0 +1,21 @@
+.projects {
+   @apply gap-16 flex flex-col;
+}
+
+.photoContainer {
+   @apply flex  w-full justify-center gap-6 max-md:w-full max-md:flex-col;
+}
+.projectImageContainer {
+   @apply flex flex-col;
+}
+
+.projectImage {
+   @apply rounded-2xl pb-2;
+}
+
+.projectP {
+   @apply text-center text-lg text-slate-700 uppercase;
+}
+.projectP2 {
+   @apply text-center text-slate-700 text-sm;
+}
