@@ -5,7 +5,7 @@ function Projects() {
    return (
       <div className="container">
          <div>
-            <h3>123</h3>
+            <h3>My Projects</h3>
             <ProjectCard />
          </div>
       </div>

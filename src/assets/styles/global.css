@@ -38,6 +38,10 @@ h3 {
    border-bottom: 4px solid black;
 }
 
+.dark h3 {
+   border-bottom: 4px solid white;
+}
+
 a {
    color: #3d7aed;
 }

@@ -1,6 +1,6 @@
 import Ben from '../assets/images/ben.jpeg';
 import BioWrapper from '../components/sections/BioWrapper';
-import { BsFillSendFill } from 'react-icons/bs';
+import MailToButton from './sections/MailToButton';
 import Pokepoke from '../assets/images/pokepoke-app.png';
 import React from 'react';
 import SocialWrapper from './sections/SocialWrapper';
@@ -101,11 +101,7 @@ function About() {
                   Join me on a behind-the-scenes coding journey. Weekly updates
                   on projects, tutorials, and videos
                </p>
-               <div className={styles.mailContainer}>
-                  <button className={styles.mailButton}>
-                     <BsFillSendFill /> Click Here and Mail Me
-                  </button>
-               </div>
+               <MailToButton />
             </div>
          </div>
       </div>

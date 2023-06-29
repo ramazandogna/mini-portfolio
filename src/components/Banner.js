@@ -8,7 +8,7 @@ function Banner() {
             <img
                src={Character}
                alt=""
-               className=" max-w-sm rounded-lg"
+               className=" max-w-sm rounded-lg no-select"
             />
          </div>
       </div>

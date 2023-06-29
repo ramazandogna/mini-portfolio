@@ -12,7 +12,7 @@ function Table() {
                      scope="col"
                      className={styles.th}
                   >
-                     Zeynel Örüllüoğlu
+                     Zeynel Orulluoğlu
                   </th>
 
                   <th

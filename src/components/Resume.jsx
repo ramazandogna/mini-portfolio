@@ -1,3 +1,4 @@
+import MailToButton from './sections/MailToButton';
 import React from 'react';
 import ReactBTK from '../assets/pdfs/REACT__le_Web_Programc_l____Sertifika.pdf';
 import ReactTR1 from '../assets/pdfs/Ramazan Doğan-React101.pdf';
@@ -12,6 +13,7 @@ function Resume() {
    return (
       <div className="section">
          <div>
+            <h2 className={styles.sectionTitle}>My Resume</h2>
             <div className={styles.resumeWrapper}>
                <div className={styles.skillsWrapper}>
                   <h3>My Skills</h3>
@@ -132,6 +134,45 @@ function Resume() {
                <h3>My References</h3>
                <Table />
             </div>
+            <div className={styles.whyMeWrapper}>
+               <h3>Why Me</h3>
+               <div>
+                  <p className={styles.whyP}>
+                     I have a strong passion for continuous learning and
+                     development in my career.
+                  </p>
+                  <ul className={styles.whyList}>
+                     <li className={styles.whyItem}>
+                        In early 2022, I successfully completed a comprehensive
+                        course on React provided by BTK.
+                     </li>
+                     <li className={styles.whyItem}>
+                        I expanded my skill set by mastering TailwindCSS and
+                        exploring its integration with postCSS, utilizing the
+                        apply methods. Later, in late 2022,
+                     </li>
+                     <li className={styles.whyItem}>
+                        I enrolled in the Turkcell Geleceği Yazanlar Course,
+                        where I gained a deep understanding of the Context API.
+                        My commitment to growth led me to pursue further
+                        education, and currently,
+                     </li>
+                     <li className={styles.whyItem}>
+                        I am enrolled in Dr. Angela Yu's Fullstack Web
+                        Development course, where I am honing my skills in
+                        typography and color design ethics. I am dedicated to
+                        staying upto-date with the latest industry trends and
+                        continually expanding my knowledge.
+                     </li>
+                     <li className={styles.whyItem}>
+                        I am aware of the importance of SEO in frontend
+                        development, and I am capable of building performant
+                        modern applications.
+                     </li>
+                  </ul>
+               </div>
+            </div>
+            <MailToButton />
          </div>
       </div>
    );

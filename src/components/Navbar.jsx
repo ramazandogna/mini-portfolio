@@ -42,12 +42,6 @@ function Navbar() {
                      >
                         <li className={styles.listItems}>Resume</li>
                      </Link>
-                     <Link
-                        to="/"
-                        className={styles.listLink}
-                     >
-                        <li className={styles.listItems}>Asdas</li>
-                     </Link>
                   </ul>
                </div>
                <div className={styles.rightSide}>
@@ -84,12 +78,6 @@ function Navbar() {
                            className={styles.menuItem}
                         >
                            <p className={styles.menuItemText}>Resume</p>
-                        </Link>
-                        <Link
-                           to="/"
-                           className={styles.menuItem}
-                        >
-                           <p className={styles.menuItemText}>Asdas</p>
                         </Link>
                      </div>
                   )}

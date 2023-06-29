@@ -2,6 +2,10 @@
    @apply w-[604px] flex justify-center flex-col;
 }
 
+.dark .a {
+   color: #ff63c3;
+}
+
 .a:hover {
    border-bottom: 2px solid #3d7aed;
 }
@@ -64,7 +68,7 @@
 }
 
 .photoContainer {
-   @apply flex  w-full justify-center gap-6;
+   @apply flex mt-4  w-full justify-center gap-6;
 }
 .projectImageContainer {
    @apply flex flex-col;

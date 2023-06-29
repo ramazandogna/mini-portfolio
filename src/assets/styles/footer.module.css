@@ -1,5 +1,5 @@
 .footerWrapper {
-   @apply flex justify-center items-center gap-2 py-10 px-8;
+   @apply flex justify-center items-center gap-2 py-5 px-8;
 }
 
 .created {
@@ -15,5 +15,5 @@
 }
 
 .linkedin {
-   @apply text-[25px] transition-all hover:duration-500 hover:scale-125;
+   @apply text-blue-400 text-[25px] transition-all hover:duration-500 hover:scale-125;
 }
