@@ -5,6 +5,7 @@ import { Route, Routes } from 'react-router-dom';
 
 //Component Imports
 import About from './components/About';
+import Banner from './components/Banner';
 import Footer from './components/Footer';
 import Navbar from './components/Navbar';
 import Projects from './components/Projects';
@@ -12,10 +13,11 @@ import Resume from './components/Resume';
 
 function App() {
    return (
-      <div className="main-section">
+      <div>
          <Navbar />
+         <Banner />
          <div className="container">
-            <div className="wrapper">
+            <div className="main-section">
                <Routes>
                   <Route
                      path="/"
