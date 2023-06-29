@@ -39,7 +39,12 @@ h3 {
 }
 
 .dark h3 {
-   border-bottom: 4px solid white;
+   color: #df80bb;
+   border-bottom: 4px solid #df80bb;
+}
+
+.dark h2 {
+   color: #c0f6eb;
 }
 
 a {
@@ -62,4 +67,38 @@ a {
    .container {
       width: 100%;
    }
+}
+
+.dark table {
+   background-color: #c0f6eb;
+   box-shadow: 2px 3px 4px 5px rgba(186, 183, 183, 0.7);
+}
+
+.dark li {
+   color: #c0f6eb;
+}
+
+.dark li:hover {
+   background-color: #2c7a7b;
+}
+
+.dark p {
+   color: #ffffffeb;
+}
+
+.dark .pink {
+   color: #ff63c3;
+   border-bottom: 2px solid #ff63c3;
+}
+
+.dark span {
+   color: #ffffffeb;
+}
+
+.dark button:hover {
+   background-color: initial;
+}
+
+li {
+   list-style-type: decimal;
 }

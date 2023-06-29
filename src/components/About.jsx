@@ -55,7 +55,7 @@ function About() {
                      target="_blank"
                      href="https://umutvadi.com"
                   >
-                     Writing
+                     <span className="pink">Writing</span>
                   </a>
                   , Music, Sitcom, Coding, Body Building
                </p>
@@ -98,8 +98,7 @@ function About() {
             <div>
                <h3 className={styles.wrapperTitle}>Mail</h3>
                <p>
-                  Join me on a behind-the-scenes coding journey. Weekly updates
-                  on projects, tutorials, and videos
+                  Send me mail and ask me whatever you want to learn about me.
                </p>
                <MailToButton />
             </div>

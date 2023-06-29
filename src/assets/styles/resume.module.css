@@ -15,7 +15,7 @@
 }
 
 .certificateList {
-   @apply flex flex-col;
+   @apply flex flex-col list-decimal;
 }
 
 .listContainer {
@@ -23,11 +23,12 @@
 }
 
 .certificateListItem {
-   @apply inline-block py-3 pl-1 pr-4   font-semibold rounded-lg;
+   @apply py-3 pl-1 pr-4   font-semibold rounded-lg;
    color: #2c7a7b;
 }
 
 .dark .certificateListItem {
+   @apply p-2;
    color: #e6fffa;
 }
 

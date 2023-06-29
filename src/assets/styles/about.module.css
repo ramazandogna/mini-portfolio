@@ -68,7 +68,7 @@
 }
 
 .photoContainer {
-   @apply flex mt-4  w-full justify-center gap-6;
+   @apply flex my-5  w-full justify-center gap-6;
 }
 .projectImageContainer {
    @apply flex flex-col;
@@ -96,4 +96,8 @@
 
 .mailButton:hover {
    background-color: #247c7a;
+}
+
+.buttonLink {
+   @apply inline-block;
 }

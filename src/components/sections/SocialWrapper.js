@@ -10,9 +10,9 @@ function SocialWrapper() {
          <ul>
             <li>
                <a
+                  className={styles.buttonLink}
                   target="_blank"
                   rel="noreferrer"
-                  className=""
                   alt="git"
                   href="https://github.com/ramazandogna"
                >
@@ -21,12 +21,13 @@ function SocialWrapper() {
                         <FaGithub />
                      </span>
 
-                     <div className={styles.socialUserName}>@ramazandogna</div>
+                     <p className={styles.socialUserName}>@ramazandogna</p>
                   </button>
                </a>
             </li>
             <li>
                <a
+                  className={styles.buttonLink}
                   target="_blank"
                   rel="noreferrer"
                   alt="linkedin"
@@ -36,12 +37,13 @@ function SocialWrapper() {
                      <span className={styles.socialIcon}>
                         <FaLinkedin />
                      </span>
-                     <div className={styles.socialUserName}>@ramazandogna</div>
+                     <p className={styles.socialUserName}>@ramazandogna</p>
                   </button>{' '}
                </a>
             </li>
             <li>
                <a
+                  className={styles.buttonLink}
                   target="_blank"
                   rel="noreferrer"
                   alt="twitter"
@@ -51,12 +53,13 @@ function SocialWrapper() {
                      <span className={styles.socialIcon}>
                         <FaTwitter />
                      </span>
-                     <div className={styles.socialUserName}>@ramazandogna</div>
+                     <p className={styles.socialUserName}>@ramazandogna</p>
                   </button>{' '}
                </a>
             </li>
             <li>
                <a
+                  className={styles.buttonLink}
                   target="_blank"
                   rel="noreferrer"
                   alt="twitter"
@@ -66,7 +69,7 @@ function SocialWrapper() {
                      <span className={styles.socialIcon}>
                         <FaInstagram />
                      </span>
-                     <div className={styles.socialUserName}>@ramazandogna</div>
+                     <p className={styles.socialUserName}>@ramazandogna</p>
                   </button>{' '}
                </a>
             </li>

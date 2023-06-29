@@ -27,7 +27,7 @@ function BioWrapper() {
                   href="https://umutvadi.com"
                   alt="umutvadi"
                >
-                  Umutvadi
+                  <span className="pink">Umutvadi</span>
                </a>{' '}
                and writed first content in the late part of year.
             </div>

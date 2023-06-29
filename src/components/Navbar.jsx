@@ -29,20 +29,20 @@ function Navbar() {
                   >
                      <FaReact className={styles.logoIcon} /> Ramazan DOĞAN
                   </Link>
-                  <ul className={styles.list}>
+                  <div className={styles.list}>
                      <Link
                         to="/projects"
                         className={styles.listLink}
                      >
-                        <li className={styles.listItems}>Projects</li>
+                        <div className={styles.listItems}>Projects</div>
                      </Link>
                      <Link
                         to="/resume"
                         className={styles.listLink}
                      >
-                        <li className={styles.listItems}>Resume</li>
+                        <div className={styles.listItems}>Resume</div>
                      </Link>
-                  </ul>
+                  </div>
                </div>
                <div className={styles.rightSide}>
                   <div

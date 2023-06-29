@@ -53,16 +53,16 @@ function Resume() {
             </div>
             <div className={styles.certificateWrapper}>
                <h3>Certificates</h3>
-               <div className={styles.certificateList}>
+               <ul className={styles.certificateList}>
                   <a
                      target="_blank"
                      className={styles.listContainer}
                      rel="noopener noreferrer"
                      href={ReactBTK}
                   >
-                     <div className={styles.certificateListItem}>
+                     <li className={styles.certificateListItem}>
                         Web Programming with React - BTK Akademi
-                     </div>
+                     </li>
                   </a>
                   <a
                      target="_blank"
@@ -70,9 +70,9 @@ function Resume() {
                      rel="noopener noreferrer"
                      href={ReactTR4}
                   >
-                     <div className={styles.certificateListItem}>
+                     <li className={styles.certificateListItem}>
                         React 401 - Turkcell Geleceği Yazanlar
-                     </div>
+                     </li>
                   </a>
                   <a
                      target="_blank"
@@ -80,9 +80,9 @@ function Resume() {
                      rel="noopener noreferrer"
                      href={ReactTR3}
                   >
-                     <div className={styles.certificateListItem}>
+                     <li className={styles.certificateListItem}>
                         React 301 - Turkcell Geleceği Yazanlar
-                     </div>
+                     </li>
                   </a>
                   <a
                      target="_blank"
@@ -90,9 +90,9 @@ function Resume() {
                      rel="noopener noreferrer"
                      href={ReactTR2}
                   >
-                     <div className={styles.certificateListItem}>
+                     <li className={styles.certificateListItem}>
                         React 201 - Turkcell Geleceği Yazanlar
-                     </div>
+                     </li>
                   </a>
                   <a
                      target="_blank"
@@ -100,9 +100,9 @@ function Resume() {
                      rel="noopener noreferrer"
                      href={ReactTR1}
                   >
-                     <div className={styles.certificateListItem}>
+                     <li className={styles.certificateListItem}>
                         React 101 - Turkcell Geleceği Yazanlar
-                     </div>
+                     </li>
                   </a>
                   <a
                      target="_blank"
@@ -110,11 +110,11 @@ function Resume() {
                      rel="noopener noreferrer"
                      href={Seo}
                   >
-                     <div className={styles.certificateListItem}>
+                     <li className={styles.certificateListItem}>
                         Search Engine Optimization (SEO) - BTK Akademi
-                     </div>
+                     </li>
                   </a>
-               </div>
+               </ul>
             </div>
             <div className={styles.languageWrapper}>
                <h3>Languages</h3>
