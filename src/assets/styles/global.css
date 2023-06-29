@@ -52,8 +52,13 @@ a:hover {
    padding: 0 1rem;
 }
 
-@media screen and (max-width: 768) {
+.wrapper {
+   display: flex;
+   padding-top: 4rem;
+}
+
+@media screen and (max-width: 768px) {
    .container {
-      width: 768px;
+      width: 100%;
    }
 }

@@ -15,20 +15,22 @@ function App() {
       <div className="main-section">
          <Navbar />
          <div className="container">
-            <Routes>
-               <Route
-                  path="/"
-                  element={<About />}
-               />
-               <Route
-                  path="/"
-                  element={<Projects />}
-               />
-               <Route
-                  path="/"
-                  element={<Resume />}
-               />
-            </Routes>
+            <div className="wrapper">
+               <Routes>
+                  <Route
+                     path="/"
+                     element={<About />}
+                  />
+                  <Route
+                     path="/"
+                     element={<Projects />}
+                  />
+                  <Route
+                     path="/"
+                     element={<Resume />}
+                  />
+               </Routes>
+            </div>
          </div>
          <Footer />
       </div>

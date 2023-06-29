@@ -1,0 +1,38 @@
+.headerContainer {
+   @apply w-full h-14 bg-opacity-70 fixed z-10 bg-slate-300 flex items-center;
+}
+
+.wrapper {
+   @apply flex justify-between;
+}
+
+.leftSide {
+   @apply flex gap-4 items-center justify-center;
+}
+
+.logo {
+   @apply text-2xl font-medium;
+}
+
+.list {
+   @apply flex;
+}
+
+.rightSide {
+   @apply flex items-center relative gap-4;
+}
+
+.nightMode {
+   @apply bg-slate-600 text-white p-2 rounded-md text-xl cursor-pointer md:hidden;
+}
+.menuIcon {
+   @apply bg-slate-600 text-white p-2 text-xl cursor-pointer md:hidden;
+}
+
+.menuItems {
+   @apply absolute top-full left-0 mt-4 p-4 bg-white border border-gray-300 rounded shadow;
+}
+
+.menuItem {
+   @apply mb-2 hover:bg-slate-200 px-3 py-1;
+}
