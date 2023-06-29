@@ -29,16 +29,22 @@ h6  {
    font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 
+h3 {
+   font-size: 20px;
+   margin-top: 12px;
+   margin-bottom: 16px;
+   font-weight: 500;
+   display: inline-block;
+   border-bottom: 4px solid black;
+}
+
 a {
    color: #3d7aed;
 }
 
-.main-section {
-   position: relative;
-   padding-top: 4rem;
-}
 .section {
-   padding: 2.5rem 0;
+   display: flex;
+   justify-content: center;
 }
 
 .container {

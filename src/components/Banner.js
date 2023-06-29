@@ -4,11 +4,13 @@ import React from 'react';
 function Banner() {
    return (
       <div className="container">
-         <img
-            src={Character}
-            alt=""
-            className=" rounded-lg"
-         />
+         <div className="flex justify-center">
+            <img
+               src={Character}
+               alt=""
+               className=" max-w-sm rounded-lg"
+            />
+         </div>
       </div>
    );
 }

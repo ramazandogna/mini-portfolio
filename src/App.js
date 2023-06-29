@@ -17,22 +17,20 @@ function App() {
          <Navbar />
          <Banner />
          <div className="container">
-            <div className="main-section">
-               <Routes>
-                  <Route
-                     path="/"
-                     element={<About />}
-                  />
-                  <Route
-                     path="/"
-                     element={<Projects />}
-                  />
-                  <Route
-                     path="/"
-                     element={<Resume />}
-                  />
-               </Routes>
-            </div>
+            <Routes>
+               <Route
+                  path="/"
+                  element={<About />}
+               />
+               <Route
+                  path="/"
+                  element={<Projects />}
+               />
+               <Route
+                  path="/"
+                  element={<Resume />}
+               />
+            </Routes>
          </div>
          <Footer />
       </div>

@@ -1,0 +1,78 @@
+.aboutWrapper {
+   @apply w-[604px] flex justify-center flex-col;
+}
+
+.a:hover {
+   border-bottom: 2px solid #3d7aed;
+}
+
+.hello {
+   @apply py-3 px-10 inline-block text-center rounded-xl  mb-8;
+   background-color: #ffffff5c;
+}
+
+.introduction {
+   @apply flex;
+}
+
+.infoContainer {
+   @apply w-8/12;
+}
+.infoName {
+   @apply text-4xl tracking-wider font-extrabold;
+}
+
+.infoP {
+   @apply py-1;
+}
+
+.img {
+   @apply ml-auto rounded-full border-4 border-white w-28 justify-end;
+}
+
+.workWrapper {
+   @apply my-1;
+}
+
+.pBreaks {
+   @apply px-2;
+}
+
+.bio {
+   @apply flex flex-row gap-4;
+}
+
+.date {
+   @apply font-semibold;
+}
+
+.social {
+   @apply flex  flex-row items-center gap-2 py-2 px-3 rounded-lg;
+   color: #2c7a7b;
+}
+
+.social:hover {
+   background-color: #e6fffa;
+}
+
+.socialIcon {
+   @apply font-semibold;
+}
+
+.photoContainer {
+   @apply flex  w-full justify-center;
+}
+.projectImageContainer {
+   @apply text-current flex flex-col;
+}
+
+.projectImage {
+   @apply rounded-2xl mx-2;
+}
+
+.projectP {
+   @apply text-center;
+}
+.projectP2 {
+   @apply text-center text-sm;
+}
