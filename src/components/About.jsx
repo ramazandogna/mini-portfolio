@@ -1,4 +1,4 @@
-import Ben from '../assets/images/ben.jpeg';
+import Ben from '../assets/images/ben.png';
 import BioWrapper from '../components/sections/BioWrapper';
 import MailToButton from './sections/MailToButton';
 import Pokepoke from '../assets/images/pokepoke-app.png';
@@ -14,18 +14,21 @@ function About() {
             <div className={styles.hello}>
                Hello, I'm an frontend developer based in Turkey!
             </div>
+
             <div className={styles.introduction}>
+               <div className={styles.imgContainer}>
+                  <img
+                     src={Ben}
+                     alt="ramazan"
+                     className={styles.img}
+                  />
+               </div>
                <div className={styles.infoContainer}>
                   <h2 className={styles.infoName}>Ramazan Doğan</h2>
                   <p className={styles.infoP}>
                      Online Guy ( Content Editor / Developer )
                   </p>
                </div>
-               <img
-                  src={Ben}
-                  alt=""
-                  className={styles.img}
-               />
             </div>
             <div className={styles.workWrapper}>
                <h3 className={styles.wrapperTitle}>Work</h3>

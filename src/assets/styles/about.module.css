@@ -16,11 +16,11 @@
 }
 
 .introduction {
-   @apply flex;
+   @apply flex flex-row-reverse justify-between max-md:flex-col-reverse max-md:justify-center;
 }
 
 .infoContainer {
-   @apply w-8/12;
+   @apply w-8/12  flex flex-col justify-start max-md:text-center max-md:justify-center max-md:flex max-md:mx-auto max-md:flex-col;
 }
 .infoName {
    @apply text-4xl tracking-wider font-extrabold;
@@ -30,8 +30,12 @@
    @apply py-1;
 }
 
+.imgContainer {
+   @apply flex justify-end max-md:justify-center max-md:mx-auto;
+}
+
 .img {
-   @apply ml-auto rounded-full border-4 border-white w-28 justify-end;
+   @apply mr-auto rounded-full border-2 border-[#ffffffbe] w-24 max-md:my-2;
 }
 
 .workWrapper {
