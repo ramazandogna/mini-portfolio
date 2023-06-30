@@ -3,7 +3,7 @@
 }
 
 .sectionTitle {
-   @apply font-bold text-3xl my-12;
+   @apply font-bold text-3xl my-6;
 }
 
 .skillContainer {
@@ -37,21 +37,21 @@
 }
 
 .tableContainer {
-   @apply relative overflow-x-auto sm:rounded-lg;
-   background-color: #ffffff40;
-   box-shadow: 2px 3px 4px 5px rgba(12, 12, 12, 0.07);
+   @apply w-full flex rounded-xl;
 }
 
 .table {
-   @apply w-full  text-left text-gray-500 dark:text-gray-100;
+   @apply text-left overflow-x-auto text-gray-500 dark:text-gray-100 rounded-xl;
+   background-color: #ffffff40;
+   box-shadow: 2px 3px 4px 5px rgba(12, 12, 12, 0.08);
 }
 
 .tHead {
-   @apply text-sm text-gray-700 uppercase  dark:bg-gray-100 dark:text-gray-100;
+   @apply text-gray-700 uppercase dark:bg-gray-100 dark:text-gray-100;
 }
 
 .th {
-   @apply px-6 py-3;
+   @apply px-4 py-4;
 }
 
 .tableBody {
@@ -59,7 +59,7 @@
 }
 
 .td {
-   @apply px-6 py-4;
+   @apply px-4 py-4;
 }
 
 .whyList {
