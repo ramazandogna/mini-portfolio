@@ -12,7 +12,7 @@ import styles from '../assets/styles/resume.module.css';
 function Resume() {
    return (
       <div className="section">
-         <div className="container">
+         <div className={styles.resumeSection}>
             <h2 className={styles.sectionTitle}>My Resume</h2>
             <div className={styles.resumeWrapper}>
                <div className={styles.skillsWrapper}>

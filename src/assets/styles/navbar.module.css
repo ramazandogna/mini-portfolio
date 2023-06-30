@@ -1,5 +1,5 @@
 .headerContainer {
-   @apply w-full h-14  fixed z-10  backdrop-blur-xl flex items-center dark:bg-slate-800 shadow-sm;
+   @apply w-full h-14 fixed z-10  backdrop-blur-xl flex items-center dark:bg-slate-800 shadow-sm;
    background-color: #ffffff40;
 }
 

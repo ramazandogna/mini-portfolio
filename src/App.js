@@ -14,7 +14,7 @@ import Resume from './components/Resume';
 function App() {
    return (
       <div className="dark:bg-[#202023] dark:text-[#ffffffeb]">
-         <Navbar className="dark:bg-[#20202360] dar:border-[#ffffffeb]" />
+         <Navbar />
          <Banner />
          <div className="container">
             <Routes>

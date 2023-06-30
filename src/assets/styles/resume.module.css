@@ -1,4 +1,4 @@
-.resumeWrapper {
+.resumeSection {
    @apply w-[604px] flex justify-center flex-col;
 }
 
