@@ -20,3 +20,9 @@ Add a link to my linkedin page => https://www.linkedin.com/in/ramazandogna/
 ## Screenshots
 
 -  **Home Page**
+
+![App Screenshot](https://github.com/ramazandogna/mini-portfolio/blob/master/src/assets/screenshots/home-screen.png)
+
+-  **Projects Page**
+
+![App Screenshot](https://github.com/ramazandogna/mini-portfolio/blob/master/src/assets/screenshots/project-screen.png)

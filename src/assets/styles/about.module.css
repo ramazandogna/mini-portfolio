@@ -55,11 +55,19 @@
    color: #2c7a7b;
 }
 
+.socialContainer {
+   list-style-type: disc;
+}
+
 .social:hover {
    background-color: #e6fffa;
 }
 
 .socialIcon {
+   @apply font-semibold;
+}
+
+.socialUserName {
    @apply font-semibold;
 }
 

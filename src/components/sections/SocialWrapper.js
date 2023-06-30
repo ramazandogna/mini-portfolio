@@ -7,7 +7,7 @@ function SocialWrapper() {
    return (
       <div className={styles.socialWrapper}>
          <h3 className={styles.wrapperTitle}>On the Web</h3>
-         <ul>
+         <ul className={styles.socialContainer}>
             <li>
                <a
                   className={styles.buttonLink}

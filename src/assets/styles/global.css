@@ -74,6 +74,10 @@ a {
    box-shadow: 2px 3px 4px 5px rgba(186, 183, 183, 0.7);
 }
 
+.dark thead {
+   border-bottom: 2px solid black;
+}
+
 .dark li {
    color: #c0f6eb;
 }
