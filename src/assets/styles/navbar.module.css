@@ -80,7 +80,7 @@
 }
 
 .menuIcon {
-   @apply bg-opacity-50 border-2 p-3 rounded-md text-lg cursor-pointer md:hidden  hover:bg-white;
+   @apply bg-opacity-50 border-2 p-3 rounded-md text-lg cursor-pointer md:hidden  hover:bg-slate-300;
 }
 
 .menuItems {

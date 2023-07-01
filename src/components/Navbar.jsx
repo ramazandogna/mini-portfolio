@@ -66,18 +66,18 @@ function Navbar() {
                      <FaBars />
                   </div>
                   {isMenuOpen && (
-                     <div className={styles.menuItems}>
+                     <div className={`${styles.menuItems} darkmenu`}>
                         <Link
                            to="/projects"
                            className={styles.menuItem}
                         >
-                           <p className={styles.menuItemText}>Projects</p>
+                           <div className={styles.menuItemText}>Projects</div>
                         </Link>
                         <Link
                            to="/resume"
                            className={styles.menuItem}
                         >
-                           <p className={styles.menuItemText}>Resume</p>
+                           <div className={styles.menuItemText}>Resume</div>
                         </Link>
                      </div>
                   )}
