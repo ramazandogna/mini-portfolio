@@ -1,5 +1,5 @@
 .projects {
-   @apply gap-16 flex flex-col;
+   @apply gap-12 pb-6 border-b border-slate-400 border-opacity-10 flex flex-col;
 }
 
 .photoContainer {
