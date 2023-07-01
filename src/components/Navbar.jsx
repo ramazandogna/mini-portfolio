@@ -51,11 +51,11 @@ function Navbar() {
                   >
                      {isNightMode ? (
                         <div className={styles.nightIcon}>
-                           <MdNightlight />
+                           <FaSun />
                         </div>
                      ) : (
                         <div className={styles.dayIcon}>
-                           <FaSun />
+                           <MdNightlight />
                         </div>
                      )}
                   </div>
