@@ -82,3 +82,7 @@
 .whyP:hover {
    @apply border-current border-opacity-100;
 }
+
+.certificateWrapperP {
+   @apply italic text-sm p-2;
+}

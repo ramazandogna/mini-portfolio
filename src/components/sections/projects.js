@@ -22,14 +22,14 @@ function ProjectCard() {
                />
                <p className={styles.projectP}>Pokepoke App</p>
                <p className={styles.projectP2}>
-                  Pokedex app designed entirely by me
+                  Pokedex app with PokeAPI. <br /> (React, Redux Toolkit, CSS)
                </p>
             </a>
             <a
                className={styles.projectImageContainer}
                target="_blank"
                rel="noreferrer"
-               href="https://pokepokeapp.netlify.app/"
+               href="https://umutvadi.com/"
             >
                <img
                   className={styles.projectImage}
@@ -38,7 +38,8 @@ function ProjectCard() {
                />
                <p className={styles.projectP}>Umutvadi</p>
                <p className={styles.projectP2}>
-                  My website ( - 1.5M Single hit )
+                  My personal website - 1.5M Single hit
+                  <br /> (Wordpress, Content Writer, SEO)
                </p>
             </a>
          </div>
@@ -47,32 +48,34 @@ function ProjectCard() {
                className={styles.projectImageContainer}
                target="_blank"
                rel="noreferrer"
-               href="https://pokepokeapp.netlify.app/"
+               href="https://movie-api-app-demo.netlify.app"
             >
                <img
                   className={styles.projectImage}
                   src={MovieApp}
                   alt=""
                />
-               <p className={styles.projectP}>Umutvadi</p>
+               <p className={styles.projectP}>MovieAPI</p>
                <p className={styles.projectP2}>
-                  My website ( - 1.5M Single hit )
+                  Movie watchlist app.
+                  <br /> (React, Redux Toolkit, MaterialUI)
                </p>
             </a>
             <a
                className={styles.projectImageContainer}
                target="_blank"
                rel="noreferrer"
-               href="https://pokepokeapp.netlify.app/"
+               href="https://react-portfoilo-demo.netlify.app"
             >
                <img
                   className={styles.projectImage}
                   src={ReactPortfolio}
                   alt=""
                />
-               <p className={styles.projectP}>Umutvadi</p>
+               <p className={styles.projectP}>Portfolio</p>
                <p className={styles.projectP2}>
-                  My website ( - 1.5M Single hit )
+                  A simple portfolio web app.
+                  <br /> (React, React Hooks, TailwindCSS)
                </p>
             </a>
          </div>
