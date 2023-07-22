@@ -4,12 +4,12 @@ import './assets/styles/global.css';
 import { Route, Routes } from 'react-router-dom';
 
 //Component Imports
-import About from './components/About';
+import About from './Pages/About';
 import Banner from './components/Banner';
 import Footer from './components/Footer';
 import Navbar from './components/Navbar';
-import Projects from './components/Projects';
-import Resume from './components/Resume';
+import Projects from './Pages/Projects';
+import Resume from './Pages/Resume';
 
 function App() {
    return (
