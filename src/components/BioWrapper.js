@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from '../../assets/styles/about.module.css';
+import styles from '../assets/styles/about.module.css';
 
 function BioWrapper() {
    return (

@@ -1,9 +1,9 @@
 import Ben from '../assets/images/ben.png';
-import BioWrapper from '../components/sections/BioWrapper';
-import MailToButton from './sections/MailToButton';
+import BioWrapper from '../components/BioWrapper';
+import MailToButton from '../components/MailToButton';
 import Pokepoke from '../assets/images/pokepoke-app.png';
 import React from 'react';
-import SocialWrapper from './sections/SocialWrapper';
+import SocialWrapper from '../components/SocialWrapper';
 import Umutvadi from '../assets/images/umutvadi.png';
 import { motion } from 'framer-motion';
 import styles from '../assets/styles/about.module.css';

@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from '../../assets/styles/resume.module.css';
+import styles from '../assets/styles/resume.module.css';
 
 function Skills() {
    return (

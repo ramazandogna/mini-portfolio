@@ -1,9 +1,9 @@
-import Certificates from './sections/Certificates';
-import MailToButton from './sections/MailToButton';
+import Certificates from '../components/Certificates';
+import MailToButton from '../components/MailToButton';
 import React from 'react';
-import Skills from './sections/Skills';
-import Table from './sections/Table';
-import Whyme from './sections/Whyme';
+import Skills from '../components/Skills';
+import Table from '../components/Table';
+import Whyme from '../components/Whyme';
 import { motion } from 'framer-motion';
 import styles from '../assets/styles/resume.module.css';
 

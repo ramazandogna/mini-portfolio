@@ -1,10 +1,10 @@
-import MovieApp from '../../assets/images/movie-api.png';
-import Pokepoke from '../../assets/images/pokepoke-app.png';
+import MovieApp from '../assets/images/movie-api.png';
+import Pokepoke from '../assets/images/pokepoke-app.png';
 import React from 'react';
-import ReactPortfolio from '../../assets/images/react-portfolio.png';
-import Umutvadi from '../../assets/images/umutvadi.png';
+import ReactPortfolio from '../assets/images/react-portfolio.png';
+import Umutvadi from '../assets/images/umutvadi.png';
 import { motion } from 'framer-motion';
-import styles from '../../assets/styles/projects.module.css';
+import styles from '../assets/styles/projects.module.css';
 const projectsData = {
    projects: [
       {

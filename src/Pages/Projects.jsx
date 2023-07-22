@@ -1,4 +1,4 @@
-import ProjectCard from './sections/projects';
+import ProjectCard from '../components/projects';
 import React from 'react';
 import { motion } from 'framer-motion';
 
