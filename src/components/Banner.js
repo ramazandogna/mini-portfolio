@@ -1,9 +1,15 @@
 import Character from '../assets/images/child.png';
 import React from 'react';
+import { motion } from 'framer-motion';
 
 function Banner() {
    return (
-      <div className="container">
+      <motion.div
+         initial={{ opacity: 0, translateX: 50 }}
+         animate={{ opacity: 1, translateX: 0 }}
+         transition={{ delay: 0.2 }}
+         className="container"
+      >
          <div className="flex justify-center">
             <img
                src={Character}
@@ -11,7 +17,7 @@ function Banner() {
                className="max-w-sm rounded-full shadow-sm"
             />
          </div>
-      </div>
+      </motion.div>
    );
 }
 

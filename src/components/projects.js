@@ -5,10 +5,11 @@ import ReactPortfolio from '../assets/images/react-portfolio.png';
 import Umutvadi from '../assets/images/umutvadi.png';
 import { motion } from 'framer-motion';
 import styles from '../assets/styles/projects.module.css';
+
 const projectsData = {
    projects: [
       {
-         title: 'Pokepoke App',
+         title: 'PokepokeApp',
          image: Pokepoke,
          description: 'Pokedex app with PokeAPI. (React, Redux Toolkit, CSS)',
          url: 'https://pokepokeapp.netlify.app/',
