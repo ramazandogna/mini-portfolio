@@ -14,7 +14,7 @@ function Banner() {
             <img
                src={Character}
                alt=""
-               className="max-w-sm rounded-full shadow-sm"
+               className="max-w-sm my-[0.07rem]"
             />
          </div>
       </motion.div>
