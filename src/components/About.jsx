@@ -5,11 +5,17 @@ import Pokepoke from '../assets/images/pokepoke-app.png';
 import React from 'react';
 import SocialWrapper from './sections/SocialWrapper';
 import Umutvadi from '../assets/images/umutvadi.png';
+import { motion } from 'framer-motion';
 import styles from '../assets/styles/about.module.css';
 
 function About() {
    return (
-      <div className="section">
+      <motion.div
+         initial={{ opacity: 0, translateX: '-100%' }}
+         animate={{ opacity: 1, translateX: 0 }}
+         transition={{ delay: 0.05 }}
+         className="section"
+      >
          <div className={styles.aboutWrapper}>
             <div className={styles.hello}>
                Hello, I'm an frontend developer based in Turkey!
@@ -106,7 +112,7 @@ function About() {
                <MailToButton />
             </div>
          </div>
-      </div>
+      </motion.div>
    );
 }
 

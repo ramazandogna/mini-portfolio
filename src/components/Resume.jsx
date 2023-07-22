@@ -4,11 +4,17 @@ import React from 'react';
 import Skills from './sections/Skills';
 import Table from './sections/Table';
 import Whyme from './sections/Whyme';
+import { motion } from 'framer-motion';
 import styles from '../assets/styles/resume.module.css';
 
 function Resume() {
    return (
-      <div className="section">
+      <motion.div
+         initial={{ opacity: 0, translateY: 150 }}
+         animate={{ opacity: 1, translateY: 0 }}
+         transition={{ delay: 0.05 }}
+         className="section"
+      >
          <div className={styles.resumeSection}>
             <h2 className={styles.sectionTitle}>My Resume</h2>
             <div className={styles.resumeWrapper}>
@@ -45,7 +51,7 @@ function Resume() {
             </div>
             <MailToButton />
          </div>
-      </div>
+      </motion.div>
    );
 }
 
