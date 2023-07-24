@@ -11,15 +11,15 @@
 }
 
 .skillContainer {
-   @apply flex w-1/2 my-2;
+   @apply flex w-1/2 my-2 text-base items-center;
 }
 
 .year {
-   @apply font-semibold w-[7rem];
+   @apply font-bold w-[7rem] text-lg;
 }
 
 .name {
-   @apply flex;
+   @apply font-medium;
 }
 
 .certificateList {
