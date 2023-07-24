@@ -6,12 +6,20 @@
    @apply font-bold text-3xl my-6;
 }
 
+.skillContainerWrapper {
+   @apply flex flex-wrap;
+}
+
 .skillContainer {
-   @apply flex flex-grow gap-4;
+   @apply flex w-1/2 my-2;
 }
 
 .year {
-   @apply font-semibold;
+   @apply font-semibold w-[7rem];
+}
+
+.name {
+   @apply flex;
 }
 
 .certificateList {

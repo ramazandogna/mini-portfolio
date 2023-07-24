@@ -2,7 +2,6 @@ import Certificates from '../components/Certificates';
 import MailToButton from '../components/MailToButton';
 import React from 'react';
 import Skills from '../components/Skills';
-import Table from '../components/Table';
 import Whyme from '../components/Whyme';
 import { motion } from 'framer-motion';
 import styles from '../assets/styles/resume.module.css';
@@ -41,10 +40,7 @@ function Resume() {
                   </div>
                </div>
             </div>
-            <div className={styles.referencesWrapper}>
-               <h3>My References</h3>
-               <Table />
-            </div>
+
             <div className={styles.whyMeWrapper}>
                <h3>Why Me</h3>
                <Whyme />
