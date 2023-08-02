@@ -8,11 +8,19 @@ const mySkills = [
       name: 'React',
    },
    {
-      year: '2 year',
+      year: '0-1 year',
+      name: 'Nextjs',
+   },
+   {
+      year: '2.0 year',
       name: 'JavaScript',
    },
    {
-      year: '2 year',
+      year: '1.0 year',
+      name: 'TypeScript',
+   },
+   {
+      year: '2.0 year',
       name: 'CSS',
    },
    {
@@ -24,24 +32,20 @@ const mySkills = [
       name: 'HTML',
    },
    {
-      year: '2 year',
+      year: '2.0 year',
       name: 'Frontend Development',
    },
    {
-      year: '2 year',
+      year: '2.0 year',
       name: 'SEO',
    },
    {
-      year: 'Less 1 year',
+      year: '0-1 year',
       name: 'VUE',
    },
    {
-      year: 'Less 1 year',
+      year: '0-1 year',
       name: 'React Native',
-   },
-   {
-      year: 'Less 1 year',
-      name: 'Nextjs',
    },
 ];
 
