@@ -5,6 +5,7 @@ import Skills from '../components/Skills';
 import Whyme from '../components/Whyme';
 import { motion } from 'framer-motion';
 import styles from '../assets/styles/resume.module.css';
+import AnimatedSection from '../components/AnimatedSection';
 
 function Resume() {
    return (
@@ -19,33 +20,38 @@ function Resume() {
             <div className={styles.resumeWrapper}>
                <Skills />
             </div>
-            <div className={styles.certificateWrapper}>
-               <h3>Certificates</h3>
-               <p className={styles.certificateWrapperP}>
-                  You can click certificate name to view.
-               </p>
-               <Certificates />
-            </div>
-            <div className={styles.languageWrapper}>
-               <h3>Languages</h3>
-
-               <div className={styles.skillContainer}>
-                  <span className={styles.year}>Turkish</span>
-                  <div className={styles.name}>Native speaker level</div>
-               </div>
-               <div className={styles.skillContainer}>
-                  <span className={styles.year}>English</span>
-                  <div className={styles.name}>
-                     Professional Working Proficiency
+            <AnimatedSection>
+               <div className={styles.certificateWrapper}>
+                  <h3>Certificates</h3>
+                  <p className={styles.certificateWrapperP}>
+                     You can click certificate name to view.
+                  </p>{' '}
+                  <Certificates />
+               </div>{' '}
+            </AnimatedSection>
+            <AnimatedSection>
+               {' '}
+               <div className={styles.languageWrapper}>
+                  <h3>Languages</h3>
+                  <div className={styles.languageContainer}>
+                     <span className={styles.year}>Turkish</span>
+                     <div className={styles.name}>Native speaker level</div>
+                  </div>
+                  <div className={styles.languageContainer}>
+                     <span className={styles.year}>English</span>
+                     <div className={styles.name}>Professional working level</div>
                   </div>
                </div>
-            </div>
-
-            <div className={styles.whyMeWrapper}>
-               <h3>Why Me</h3>
-               <Whyme />
-            </div>
-            <MailToButton />
+            </AnimatedSection>
+            <AnimatedSection>
+               <div className={styles.whyMeWrapper}>
+                  <h3>Why Me</h3>
+                  <Whyme />
+               </div>
+            </AnimatedSection>
+            <AnimatedSection>
+               <MailToButton />
+            </AnimatedSection>
          </div>
       </motion.div>
    );
