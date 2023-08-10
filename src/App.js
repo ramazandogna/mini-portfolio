@@ -13,7 +13,7 @@ import Resume from './Pages/Resume';
 
 function App() {
    return (
-      <div className="dark:bg-[#202023] dark:text-[#ffffffeb]">
+      <div className=" dark:bg-[#202023] dark:text-[#ffffffeb]">
          <Navbar />
          <Banner />
          <div className="container">

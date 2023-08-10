@@ -36,19 +36,19 @@ const projectsData = {
 };
 
 const container = {
-   hidden: { opacity: 0, scale: 0.5 },
+   hidden: { opacity: 0, scale: 0.2 },
    visible: {
       opacity: 1,
       scale: 1,
       transition: {
-         delayChildren: 0.2,
-         staggerChildren: 0.3,
+         delayChildren: 0.35,
+         staggerChildren: 0.45,
       },
    },
 };
 
 const item = {
-   hidden: { x: 20, y: 20, opacity: 0 },
+   hidden: { x: 50, y: 50, opacity: 0 },
    visible: {
       x: 0,
       y: 0,
